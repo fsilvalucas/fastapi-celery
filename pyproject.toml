@@ -6,6 +6,12 @@ authors = ["Lucas F. Silva <lucaslfsls@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+fastapi = "^0.88.0"
+celery = "^5.2.7"
+redis = "^4.4.0"
+flower = "^1.2.0"
+SQLAlchemy = "^1.4.46"
+alembic = "^1.9.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
